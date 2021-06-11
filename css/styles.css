@@ -1,0 +1,63 @@
+*::selection {
+	background-color: #fcded6;
+}
+
+.mi-logo img {
+	width: 100px;
+}
+
+.mi-banner {
+	height: 300px;
+	text-align: center;
+
+	background: radial-gradient(circle, rgba(150,20,132,0.3) 0%, rgba(222,148,136,0.3) 100%), url('../imgs/people.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.mi-banner h2 {
+	padding-left: 10px;
+	text-shadow: 1px 1px 10px black;
+	border-left: 5px solid lightgrey;
+}
+
+.nota-principal {
+	cursor: pointer;
+}
+
+.mi-boton {
+	background-color: #dc6a8a;
+	color: #fff;
+}
+
+.mi-boton:hover {
+	background-color: #da4d8c;
+	color: #fff;
+}
+
+.botonToggle {
+	background-color: #df9987;
+	color: #652543;
+}
+
+.botonToggle:hover {
+	background-color: #db8267;
+	color: #652543;
+}
+
+.card {
+	cursor: pointer;
+}
+
+input:focus,
+input:hover,
+.navbar-toggler:focus,
+.botonera button:focus,
+.card:hover {
+	box-shadow: 0 0 0 .25rem rgba(207, 65, 139 ,.25) !important;
+	border-color: #fcded6 !important;
+}
+
+footer {
+	background-color: #652543;
+}
